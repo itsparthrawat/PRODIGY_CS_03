@@ -26,3 +26,31 @@ Now, let's create a function that uses the above checks to determine the passwor
 
 ## Step 4: Provide Feedback to the User
 Finally, we need a way to get the password from the user and provide the feedback. Here’s how we can do that in a simple script.
+
+
+# How to Run
+
+## 1. Open the file in the VS Code
+
+## 2. Open Terminal in VS Code:
+
+Click on Terminal > New Terminal from the top menu. This will open a new terminal at the bottom of the VS Code window.
+
+## 3. Navigate to the Script Location (Optional):
+
+If your script is not in the default directory, use the cd command to navigate to the directory where you saved password_checker.py. For example: cd path\to\your\script
+
+## 4. Run the Script:
+
+In the terminal, type the following command and press Enter: Password Complexity Checker.py
+
+You will be prompted to enter a password. After entering the password, you will receive feedback on its strength.
+
+# Here’s how it might look in the VS Code terminal:
+
+PS C:\path\to\your\script> python password_checker.py
+Enter your password: MyPassw0rd!
+Password is very strong.
+
+
+
